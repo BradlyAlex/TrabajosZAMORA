@@ -1,0 +1,26 @@
+# include <stdio.h>
+# include <stdlib.h>
+
+float promedio (float a, float b);
+
+int main (){
+
+    float a=5;
+    float b=10;
+    float prom;
+
+    prom=promedio(a,b);
+    printf("EL PROMEDIO ES: %2.1f\n", prom);
+
+    system("pause");
+    return 0;
+}
+
+    float promedio(float a, float b){
+        float prom;
+        a=a+3;
+        b=b+3;
+        prom=(a+b)/2;
+
+        return prom;
+    }
